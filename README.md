@@ -1,6 +1,6 @@
 # Legacy origin demo
 
-A zero-build static site used as the external origin for the cookie rewrite proxy example. It has no framework, package manager, or server-side runtime.
+A zero-build static site used as the external origin for the [cookie rewrite proxy example](https://github.com/bennor/cookie-rewrite-proxy). It has no framework, package manager, or server-side runtime.
 
 The site includes:
 
