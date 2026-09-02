@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title description">
+  <title id="title">Legacy server illustration</title>
+  <desc id="description">A stack of blue server shapes connected by routing lines.</desc>
+  <rect width="720" height="560" rx="44" fill="#dce8ff"/>
+  <path d="M98 122h524v104H98zM98 260h524v104H98zM98 398h524v62H98z" fill="#fff" stroke="#18212b" stroke-width="12"/>
+  <g fill="#3568d4">
+    <circle cx="152" cy="174" r="16"/>
+    <circle cx="152" cy="312" r="16"/>
+    <circle cx="152" cy="429" r="16"/>
+  </g>
+  <path d="M218 174h326M218 312h326M218 429h226" stroke="#91a6b8" stroke-width="14" stroke-linecap="round"/>
+</svg>

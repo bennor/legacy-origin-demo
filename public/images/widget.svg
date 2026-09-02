@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title description">
+  <title id="title">Blue widget</title>
+  <desc id="description">An abstract blue mechanical widget on a pale background.</desc>
+  <rect width="640" height="480" rx="36" fill="#edf3ff"/>
+  <circle cx="320" cy="240" r="142" fill="#3568d4"/>
+  <circle cx="320" cy="240" r="76" fill="#edf3ff" stroke="#18212b" stroke-width="14"/>
+  <path d="M320 54v70M320 356v70M134 240h70M436 240h70M188 108l50 50M402 322l50 50M188 372l50-50M402 158l50-50" stroke="#18212b" stroke-width="22" stroke-linecap="round"/>
+</svg>
