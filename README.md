@@ -1,10 +1,12 @@
 # Legacy origin demo
 
-An independent Next.js application used as the external origin for the cookie rewrite proxy example.
+A zero-build static site used as the external origin for the cookie rewrite proxy example. It has no framework, package manager, or server-side runtime.
 
-```bash
-pnpm install
-pnpm dev
-```
+The site includes:
 
-The app includes HTML routes at `/`, `/products`, and `/products/widget`, custom JavaScript under `/assets`, SVG images under `/images`, and a cookie-reporting endpoint at `/api/message`.
+- Plain HTML at `/`, `/products`, and `/products/widget`.
+- JavaScript and CSS under `/assets`.
+- SVG images under `/images`.
+- A static JSON response at `/api/message.json`.
+
+`vercel.json` sets the framework preset to `null` and enables clean URLs for the HTML files.

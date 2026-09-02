@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A product page served by the dummy legacy origin.">
+    <title>Blue Widget | Legacy Supply Co.</title>
+    <link rel="stylesheet" href="/assets/site.css">
+    <script src="/assets/site.js" defer></script>
+    <script src="/assets/product.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/">Legacy Supply Co.</a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/products">Products</a>
+        <a href="/products/widget">Widget</a>
+        <a href="/vercel">Local proxy page</a>
+      </nav>
+    </header>
+    <main class="product">
+      <img src="/images/widget.svg" alt="Blue widget">
+      <div>
+        <p class="eyebrow">Product detail</p>
+        <h1>Blue Widget</h1>
+        <p>This route loads <code>/assets/product.js</code> as well as the shared JavaScript file.</p>
+        <button id="product-action" type="button">Run product JavaScript</button>
+        <p id="product-result" aria-live="polite"></p>
+      </div>
+    </main>
+    <footer>
+      <p>Browser-visible cookie: <code id="cookie-value">Checking...</code></p>
+      <p id="api-status">Waiting for JavaScript...</p>
+    </footer>
+  </body>
+</html>

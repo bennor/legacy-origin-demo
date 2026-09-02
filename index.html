@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A dummy legacy origin for testing external rewrites.">
+    <title>Legacy Supply Co.</title>
+    <link rel="stylesheet" href="/assets/site.css">
+    <script src="/assets/site.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/">Legacy Supply Co.</a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/products">Products</a>
+        <a href="/products/widget">Widget</a>
+        <a href="/vercel">Local proxy page</a>
+      </nav>
+    </header>
+    <main class="hero">
+      <div>
+        <p class="eyebrow">Dummy legacy origin</p>
+        <h1>A small site behind the rewrite.</h1>
+        <p>This HTML, image, CSS, JavaScript, and JSON request can all pass through the proxy project.</p>
+        <a class="button" href="/products">Browse products</a>
+      </div>
+      <img src="/images/hero.svg" alt="Abstract legacy server illustration">
+    </main>
+    <footer>
+      <p>Browser-visible cookie: <code id="cookie-value">Checking...</code></p>
+      <p id="api-status">Waiting for JavaScript...</p>
+    </footer>
+  </body>
+</html>

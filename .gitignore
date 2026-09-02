@@ -1,8 +1,4 @@
-.next/
 .vercel/
-node_modules/
 .env*
-!.env.example
-*.tsbuildinfo
 *.log
 .DS_Store

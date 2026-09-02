@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Products served by the dummy legacy origin.">
+    <title>Products | Legacy Supply Co.</title>
+    <link rel="stylesheet" href="/assets/site.css">
+    <script src="/assets/site.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/">Legacy Supply Co.</a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/products">Products</a>
+        <a href="/products/widget">Widget</a>
+        <a href="/vercel">Local proxy page</a>
+      </nav>
+    </header>
+    <main>
+      <p class="eyebrow">Catalog</p>
+      <h1>Products from another URL.</h1>
+      <div class="cards">
+        <a class="card" href="/products/widget">
+          <img src="/images/widget.svg" alt="Blue widget">
+          <h2>Blue Widget</h2>
+          <p>Open the detail page and load its second JavaScript file.</p>
+        </a>
+      </div>
+    </main>
+    <footer>
+      <p>Browser-visible cookie: <code id="cookie-value">Checking...</code></p>
+      <p id="api-status">Waiting for JavaScript...</p>
+    </footer>
+  </body>
+</html>
