@@ -3,9 +3,9 @@ const cookieValue = document.querySelector('#cookie-value')
 
 const visibleProxyCookie = document.cookie
   .split('; ')
-  .find((cookie) => cookie.startsWith('vercel-origin-proxy='))
+  .find((cookie) => cookie.startsWith('_example_cookie='))
 
-cookieValue.textContent = visibleProxyCookie ?? 'Not visible to JavaScript (expected for HttpOnly)'
+cookieValue.textContent = visibleProxyCookie ?? 'No _example_cookie found'
 
 fetch('/api/message.json')
   .then((response) => response.json())
